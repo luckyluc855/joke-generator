@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(12, 71, 83, 0.575);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+#displayJokes {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    block-size: 60px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: rgba(12, 71, 83, 0.575);
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-family: Arial, sans-serif;
+        color: black;
+    }
+    
+    #displayJokes {
+        margin-top: 8em;
+        margin-bottom: 8em;
+        font-size: 50px;
+    }
+    
+    .button {
+        color: white;
+        background-color: black;
+        block-size: 60px;
+        width: 200px;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+    
+    .button:hover {
+        background-color: grey;
+        cursor: pointer;
+    }
+}
